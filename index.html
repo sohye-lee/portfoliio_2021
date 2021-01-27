@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href='images/logo.png' />
+
+    <title>sohye's portfolio</title>
+</head>
+<body>
+    <canvas class="canvas"></canvas>
+    <!-- <div id="cursor"></div> -->
+
+    <!----------- FIXED ITEMS -------------->
+
+    <!-- LOGO -->
+    <div class="logo" href="#home">
+        <a href="/"><img src="images/logo.png" id="logo"></img></a>
+        <div class="tooltip">
+            <div class="right">
+                <p>back to sohye's home.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- SCROLL TO RIGHT -->
+    <div class="scroll__right">
+        <p>scroll to right ---></p>
+    </div>
+
+    <!----------- NAVBARS -------------->
+    <section class="navbars">
+        
+        <!-- NAVBAR - TOP -->
+        <div class="nav__top">
+            <div class="nav__toggler">
+                <div class="nav__toggler__inner"></div>
+                <ul class="nav__list">
+                    <li class="top__item"><a href="#about" class="top__item__link">me</a></li>
+                    <li class="top__item"><a href="#project1" class="top__item__link">projects</a></li>
+                    <li class="top__item"><a href="#contact" class="top__item__link">contact</a></li>
+                    <li class="top__item"><a href="images/resume.pdf" download class="top__item__link">resume</a></li>
+                    <li class="top__item"><a href="https://linkedin.com/in/sohyelee" target="blank" class="top__item__link">linkedIn</a></li>
+                    <li class="top__item"><a href="https://github.com/sohye-lee" target="blank" class="top__item__link">git</a></li>
+                </ul>
+                <div class="nav__toggler__inner"></div>
+            </div>
+        </div>
+
+        <!-- NAVBAR - BOTTOM -->
+        <div class="nav__bottom">
+            <ul>
+                <li class="bottom__item">PJ</li>
+                <li class="bottom__item"><a href="#project1" class="bottom__item">01</a></li>
+                <li class="bottom__item"><a href="#project2" class="bottom__item">02</a></li>
+                <li class="bottom__item"><a href="#project3" class="bottom__item">03</a></li>
+                <li class="bottom__item"><a href="#project4" class="bottom__item">04</a></li>
+            </ul>
+        </div>
+
+    </section>
+
+    <!----------- HOME PAGE -------------->
+    <section class="home" id="home">
+        <div class="home__background">
+            <h1> Hi,<br>
+            it's Sohye.</h1>
+        </div>
+    </section>
+
+
+    <!----------- ABOUT PAGE -------------->
+    <section class="about" id="about">
+
+        <!-- PLACARD 1 -->
+        <div class="about__content">
+            <div class="about__placard placard1">
+                <div class="placard__sign">
+                    <div class="placard__line"></div>
+                    <div class="placard__text ">
+                        <h2> My Journey of Challenges</h2>
+                        <hr>
+                        <h3>Fine Arts<span class="country">-- S.Korea</span></h3>
+                        <div class="triangler__reverse"></div>
+                        <h3>Museum Studies & Art History<span class="country">-- France</span></h3>
+                        <div class="triangler__reverse"></div> 
+                        <h3> Art Collections <br>& Database Management<span class="country">-- S.Korea & France</span></h3>
+                        <div class="triangler__reverse"></div>
+                        <h3>Programming & Data Analytics<span class="country">-- USA</span></h3>
+                    </hdiv>
+                </div>
+            </div>
+        </div>
+
+        <!-- PLACARD 2 -->
+        <div class="about__content">
+            <div class="about__placard placard2">
+                <div class="placard__sign">
+                    <div class="placard__line"></div>
+                    <div class="placard__text ">
+                        <h2>Focus</h2>
+                        <hr>
+                        <h3 class="skill__frontend">MERN Stack, Focused on Frontend</h3>
+                        <p>
+                            <span class="skill">React</span>
+                            <span class="skill">React Native</span> 
+                            <span class="skill">Javascript</span>
+                            <span class="skill">Typescript</span>
+                            <span class="skill">Html</span>
+                            <span class="skill">CSS</span>
+                            <span class="skill">Bootstrap</span>
+                        </p>
+                        <h3>Also</h3>
+                        <p>
+                            <span class="skill">Python</span>
+                            <span class="skill">MySQL, PostgreSQL</span>
+                            <span class="skill">R</span><br>
+                            <span class="skill">MongoDB</span>
+                            <span class="skill">NodeJS</span>
+                            <span class="skill">Express</span>
+                        </p>
+                        <h3>Tools</h3>
+                        <p>
+                            <span class="skill">VS Code</span>
+                            <span class="skill">Github</span><br>
+                            <span class="skill">Adobe Softwares (PS,AI)</span>
+                        </p>
+                 
+                    </hdiv>
+                </div>
+            </div>
+        </div>
+
+        <!-- PLACARD 3 -->
+        <div class="about__content">
+            <div class="about__placard placard3">
+                <div class="placard__sign">
+                    <div class="placard__line"></div>
+                    <div class="placard__text ">
+                        <h2>Degrees & Courses</h2>
+                        <hr>
+                        <h3>Full Stack Web Developer Bootcamp <br>
+                            <span class="country">- Nucamp </span>
+                        </h3>
+                        <h3>MS in Data Analytics <br>
+                            <span class="country">- Georgia Tech </span>
+                        </h3>
+                        <h3>Bachelor in CS<br> 
+                            <span class="country">- Korean National Degree Program</span>
+                        </h3>
+                        <h3>
+                            Many, Many MOOCS
+                        </h3>
+                        <p class="moocs">Professional Certificate : Introduction to Python Programming, <em>Georgia Tech</em></p>
+                        <p class="moocs">Web Developer Bootcamps /<br> 
+                            Advanced Web Developer Bootcamp /<br>  
+                            Complete Javascript Course 2020 /<br> 
+                            Complete SQL Bootcamp 2020 / & others ..., <em>Udemy</em></p>
+                        <p class="moocs">Introduction to R, <em>Georgia Tech</em></p>
+                        <hr>
+                        <h3>Master's in Museum Studies &<br>
+                            Bachelor's in Art History<br>
+                            <span class="country">- Ecold du Louvre</span>
+                        </h3>
+                        <h3>Bachelor's in Fine Arts <br>
+                            <span class="country">- Seoul National University</span>
+                        </h3>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PLACARD 4 -->
+        <div class="about__content">
+            <div class="about__placard placard4">
+                <div class="placard__sign">
+                    <div class="placard__line"></div>
+                    <div class="placard__text">
+                        <a href="images/resume.pdf" download><h2>DOWNLOAD FULL RÉSUMÉ</h2></a>
+                    </hdiv>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!----------- PROEJCT1 PAGE -------------->
+    <section class="project project1 bgcolor__change" id="project1">
+
+        <div class="project__title__vertical color__smoke">
+            <h3>project 1 / salaad </h3>
+        </div>
+
+        <div class="scroll__down color__smoke">
+            <p>scroll down</p>
+            <p><i class="fa fa-angle-down"></i></p>
+        </div>
+
+        <div class="project__content">
+            <div class="project__text color__smoke">
+                <div class="project__title">
+                    <h2 class="project__bigtitle">SALAAD</h2>
+                    <div class="project__description">
+                        <h4>Website & App for a salaad delivery shop</h4>
+                        <h4>Built with <span class="skill">HTML/CSS/JS</span> & <span class="skill">Bootstrap</span></h4>
+                    </div>
+                </div>
+                <div class="project__link__buttons">
+                    <a href="https://wonderful-shannon-a4f8d0.netlify.app/" target="blank"><button class="project__link__btn live">SEE LIVE</button></a>
+                    <a href="https://github.com/sohye-lee/salaad" target="blank"><button class="project__link__btn github">GITHUB</button></a>    
+                </div>
+            </div>
+            <div class="project__video__container">
+                <img class="video__mockup__frame" src="images/mockupframe_computer.png" alt="project mockup">
+                <video class="project__video" autoplay loop muted >
+                    <source src="images/project-salaad/video.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="project__images">
+                <div class="project__image left" id="salaad__firstimg">
+                    <img class="project__image__web" src="images/project-salaad/web1.png" alt="transia1">
+                    <img class="project__image__web second" src="images/project-salaad/web2.png" alt="transia1">
+                </div>
+                <div class="project__image right">
+                    <img src="images/project-salaad/web3.png" alt="" class="project__image__web">
+                </div>
+                <div class="project__image left">
+                    <img class="project__image__web" src="images/project-salaad/web4.png" alt="transia1">
+                </div>
+                <div class="project__image right">
+                    <img src="images/project-salaad/web5.png" alt="" class="project__image__web">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    
+
+    <!----------- PROEJCT2 PAGE -------------->
+    <section class="project project2" id="project2">
+
+        <div class="project__title__vertical color__change">
+            <h3>project 02 / taude</h3>
+        </div>
+
+        <div class="scroll__down color__smoke">
+            <p>scroll down</p>
+            <p><i class="fa fa-angle-down"></i></p>
+        </div>
+
+        <div class="project__content">
+            <div class="project__text color__smoke">
+                <div class="project__title">
+                    <h2 class="project__bigtitle">TAUDE</h2>
+                    <div class="project__description">
+                        <h4>e-Commerce website : Frontend & Backend</h4>
+                        <h4>Built with <span class="skill__reverse">React</span> & <span class="skill__reverse">NodeJS</span> & <span class="skill__reverse">MongoDB</span> & <span class="skill__reverse">Express</span></h4>
+                    </div>
+                </div>
+                <div class="project__link__buttons">
+                    <a href="https://e-commerce-taude-app.herokuapp.com/" target="blank"><button class="project__link__btn live reverse">SEE LIVE</button></a>
+                    <a href="https://github.com/sohye-lee/e-commerce-taude" target="blank"><button class="project__link__btn github">GITHUB</button></a>    
+                </div>
+            </div>
+            <div class="project__video__container">
+                <img class="video__mockup__frame" src="images/mockup_desktop_nocoffee.png" alt="project mockup">
+                <video class="project__video" autoplay loop muted >
+                    <source src="images/project-taude/video.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="project__images">
+                <div class="project__image left">
+                    <img class="project__image__web" src="images/project-taude/web1.png" alt="transia1">
+                </div>
+                <div class="project__image right">
+                    <img src="images/project-taude/web2.png" alt="" class="project__image__web">
+                </div>
+                <div class="project__image left">
+                    <img class="project__image__web" src="images/project-taude/web3.png" alt="transia1">
+                </div>
+                <div class="project__image right">
+                    <img src="images/project-taude/web4.png" alt="" class="project__image__web">
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!----------- PROEJCT3 PAGE -------------->
+    <section class="project project3 bgcolor__change" id="project3">
+
+        <div class="project__title__vertical color__smoke">
+            <h3>project 03 / transia </h3>
+        </div>
+
+        <div class="scroll__down color__smoke">
+            <p>scroll down</p>
+            <p><i class="fa fa-angle-down"></i></p>
+        </div>
+
+        <div class="project__content">
+            <div class="project__text color__smoke">
+                <div class="project__title">
+                    <h2 class="project__bigtitle">TRANSIA</h2>
+                    <div class="project__description">
+                        <h4>Website & App for a translation company</h4>
+                        <h4>Built with <span class="skill">React</span> & <span class="skill">React Native</span></h4>
+                    </div>
+                </div>
+                <div class="project__link__buttons">
+                    <a href="https://cranky-tereshkova-545663.netlify.app" target="blank"><button class="project__link__btn live">SEE LIVE</button></a>
+                    <a href="https://github.com/sohye-lee/project_transia" target="blank"><button class="project__link__btn github">GITHUB</button></a>    
+                </div>
+            </div>
+            <div class="project__video__container">
+                <img class="video__mockup__frame" src="images/mockupframe_computer.png" alt="project mockup">
+                <video class="project__video" autoplay loop muted >
+                    <source src="images/project-transia/video.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="project__images">
+                <div class="project__image left">
+                    <img class="project__image__web" src="images/project-transia/web1.png" alt="transia1">
+                </div>
+                <div class="project__image right">
+                    <img src="images/project-transia/web2.png" alt="" class="project__image__web">
+                </div>
+                <div class="project__image left">
+                    <img class="project__image__web" src="images/project-transia/web3.png" alt="transia1">
+                </div>
+                <div class="project__image right">
+                    <img src="images/project-transia/web4.png" alt="" class="project__image__web">
+                </div>
+            </div>
+            
+        </div>
+
+    </section>
+
+    <!----------- PROEJCT4 PAGE -------------->
+    <section class="project project4" id="project4">
+
+        <div class="project__title__vertical color__change">
+            <h3>project 04 / movist</h3>
+        </div>
+
+        <div class="scroll__down color__smoke">
+            <p>scroll down</p>
+            <p><i class="fa fa-angle-down"></i></p>
+        </div>
+
+        <div class="project__content">
+            <div class="project__text color__smoke">
+                <div class="project__title">
+                    <h2 class="project__bigtitle">MOVIST</h2>
+                    <div class="project__description">
+                        <h4>Website for Movie Search, With TMBD Api</h4>
+                        <h4>Built with <span class="skill__reverse">React</span></h4>
+                    </div>
+                </div>
+                <div class="project__link__buttons">
+                    <a href="https://determined-shirley-c9ab28.netlify.app/" target="blank"><button class="project__link__btn live reverse">SEE LIVE</button></a>
+                    <a href="https://github.com/sohye-lee/movist" target="blank"><button class="project__link__btn github">GITHUB</button></a>    
+                </div>
+            </div>
+            <div class="project__video__container">
+                <img class="video__mockup__frame" src="images/mockup_desktop_nocoffee.png" alt="project mockup">
+                <video class="project__video" autoplay loop muted >
+                    <source src="images/project-movist/video.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="project__images">
+                <div class="project__image left">
+                    <img class="project__image__web" src="images/project-movist/web1.png" alt="transia1">
+                </div>
+                <div class="project__image right">
+                    <img src="images/project-movist/web2.png" alt="" class="project__image__web">
+                </div>
+                <div class="project__image left">
+                    <img class="project__image__web" src="images/project-movist/web3.png" alt="transia1">
+                </div>
+                <div class="project__image right">
+                    <img src="images/project-movist/web4.png" alt="" class="project__image__web">
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!----------- CONTACT PAGE -------------->
+    <section class="contact" id="contact">
+        
+        <div class="contact__content bgcolor__change">
+            <div class="clip">
+                
+                    <div class="clip__path">
+                    </div>
+               
+            </div>
+            <div class="contact__title">
+                <h1><em>All actual life is encounter.</em><br>- Martin Buber</h1>
+                
+            </div>
+            
+        </div>
+        <div class="contact__infos">
+            
+                <h3 id="email">
+                    <span class="email letter1">s</span>
+                    <span class="email letter2">o</span>
+                    <span class="email letter3">h</span>
+                    <span class="email letter1">y</span>
+                    <span class="email letter3">e</span>
+                    <span class="email letter2">l</span>
+                    <span class="email letter1">e</span>
+                    <span class="email letter3">e</span>
+                    <span class="email letter3">@</span>
+                    <span class="email letter2">g</span>
+                    <span class="email letter1">m</span>
+                    <span class="email letter1">a</span>
+                    <span class="email letter2">i</span>
+                    <span class="email letter3">l</span>
+                    <span class="email letter1">.</span>
+                    <span class="email letter2">c</span>
+                    <span class="email letter2">o</span>
+                    <span class="email letter3">m</span>
+                </h3>
+                
+       
+        </div>
+        <div class="contact__infos">
+            <h3 class="email__trigger">click here</h3>
+            <div class="email__click"><a href="mailto:sohyelee@gmail.com"><div></div></a></div>
+        </div>
+    </section>
+
+
+    <script src="script.js" lang="JavaScript"></script>
+    <script src="https://use.fontawesome.com/32f8a9b942.js"></script>
+</body>
+</html>

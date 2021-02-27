@@ -770,8 +770,8 @@ ul {
 
 .project__image {
     max-width: var(--MaxWidth);
-    width: 100%;
-    padding: 50px;
+    width: 90%;
+    margin: 50px;
     display: flex;
     flex-direction: row;
 } 
@@ -780,6 +780,7 @@ ul {
     border: 2px solid var(--Black);
     border-radius: 5px;
     box-shadow: 10px 10px 20px rgba(0,0,0,.4);
+    width: 90%;
 }
 
 .project__image__web.second {
@@ -838,7 +839,7 @@ ul {
 .clip__path {
     box-sizing: content-box;
     height: 5px;
-    width: 5px;
+    width: 10px;
     border-radius: 50%;
     border: 600px solid var(--Black);
     animation: getBigger 2s ease-in forwards, shapeChange 8s ease 1s infinite;
@@ -872,11 +873,11 @@ ul {
 }
 
 .contact__content {
-    max-width: var(--MaxWidth);
+    /* max-width: var(--MaxWidth); */
     min-height: 700px;
     min-width: 700px;
-    width: 40%;
-    height: 50%;
+    width: 70%;
+    height: 70%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -885,7 +886,7 @@ ul {
 }
 
 .contact__title {
-    width: 60%;
+    /* width: 60%; */
     margin: 0 auto;
     text-align: center;
     color: var(--Black);
@@ -988,3 +989,56 @@ ul {
         text-shadow: none;
     }
 }
+
+
+/* RESPONSIVE  */
+@media all and (max-width: 1480px) {
+
+    .contact__content {
+        background: none !important;
+    }
+    .clip, .clip__path {
+        display: none;
+    }
+
+    .contact__title {
+        color: white;
+    }
+}
+
+@media all and (max-width: 1268px) {
+    .placard1, .placard3 {
+        display: none
+    }
+
+    .placard2 {
+        left: 0 !important;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        z-index: 120;
+    }
+    
+    .placard2 .placard__sign {
+        top: 15%;
+        max-width: 33rem;
+    }
+
+    .placard4 {
+        left: 0 !important;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .placard4 .placard__sign {
+        bottom: 20%;
+    }
+
+    .project__description, .project__description h4 {
+        font-size: 1rem;
+    }
+
+
+}
+
